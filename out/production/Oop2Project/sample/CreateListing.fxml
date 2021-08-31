@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="395.0" prefWidth="179.0" style="-fx-background-color: #008B8B;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="394.0" fitWidth="266.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Kendi%20Njeru/IdeaProjects/Oop2Project/Images/logo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="413.0" prefWidth="407.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="111.0" layoutY="14.0" prefHeight="45.0" prefWidth="177.0" text="Create a Listing">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="138.0" prefHeight="24.0" prefWidth="95.0" text="Type of Sharing:" />
+            <Label layoutX="16.0" layoutY="240.0" prefHeight="24.0" prefWidth="95.0" text="Location" />
+            <Label layoutX="16.0" layoutY="185.0" prefHeight="24.0" prefWidth="95.0" text="Rent:" />
+            <Label layoutX="16.0" layoutY="82.0" prefHeight="24.0" prefWidth="95.0" text="Type of House:" />
+            <TextField fx:id="txtFName" layoutX="124.0" layoutY="81.0" prefHeight="25.0" prefWidth="269.0" />
+            <TextField fx:id="txtLName" layoutX="124.0" layoutY="137.0" prefHeight="25.0" prefWidth="269.0" />
+            <TextField fx:id="txtEmail" layoutX="124.0" layoutY="184.0" prefHeight="25.0" prefWidth="269.0" />
+            <TextField fx:id="txtPhoneNo" layoutX="124.0" layoutY="239.0" prefHeight="25.0" prefWidth="269.0" />
+            <Button layoutX="8.0" layoutY="327.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #778899;" text="Back" />
+            <Button layoutX="259.0" layoutY="327.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #778899;" text="Sign Up" />
+            <ImageView fitHeight="63.0" fitWidth="76.0" layoutX="203.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/logo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
