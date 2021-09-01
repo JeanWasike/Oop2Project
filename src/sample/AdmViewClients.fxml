@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdmViewClients">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="605.0">
+         <top>
+            <AnchorPane prefHeight="109.0" prefWidth="613.0" style="-fx-background-color: #008B8B;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="265.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Users/mwika/IdeaProjects/Oop2Project/Images/logoSide.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="274.0" layoutY="48.0" prefHeight="73.0" prefWidth="296.0" text="Hostel name" />
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <Pane prefHeight="392.0" prefWidth="595.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TableView layoutX="6.0" layoutY="61.0" prefHeight="200.0" prefWidth="583.0">
+                     <columns>
+                        <TableColumn fx:id="ClientName" prefWidth="128.66666173934937" text="Client's Name" />
+                        <TableColumn fx:id="listing" prefWidth="106.00003051757812" text="Phone" />
+                        <TableColumn fx:id="profile" prefWidth="83.33329772949219" text="Email" />
+                        <TableColumn prefWidth="83.3333740234375" text="Address" />
+                        <TableColumn fx:id="status" prefWidth="99.33331298828125" text="Type of Listing" />
+                        <TableColumn prefWidth="80.33334350585938" text="Status" />
+                     </columns>
+                  </TableView>
+                  <ComboBox layoutX="14.0" layoutY="6.0" prefWidth="150.0" promptText="Search..." />
+                  <Button fx:id="backButton" layoutX="14.0" layoutY="287.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: #778899;" text="Back" />
+                  <Label layoutX="272.0" layoutY="9.0" prefHeight="45.0" prefWidth="122.0" text="View  Clients">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="backButton1" layoutX="428.0" layoutY="287.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: #778899;" text="Save" />
+               </children>
+            </Pane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
