@@ -15,7 +15,7 @@
          <children>
             <ImageView fitHeight="143.0" fitWidth="265.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:/C:/Users/Kendi%20Njeru/IdeaProjects/Oop2Project/Images/logoSide.jpg" />
+                  <Image url="file:/C:/Users/mwika/IdeaProjects/Oop2Project/Images/logoSide.jpg" />
                </image>
             </ImageView>
             <Label layoutX="274.0" layoutY="48.0" prefHeight="73.0" prefWidth="296.0" text="Hostel name" />
