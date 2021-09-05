@@ -42,15 +42,15 @@
             <TextField fx:id="txtPhoneNo" layoutX="124.0" layoutY="214.0" prefHeight="25.0" prefWidth="269.0" />
             <TextField fx:id="SetPassword" layoutX="124.0" layoutY="253.0" prefHeight="25.0" prefWidth="269.0" />
             <TextField layoutX="124.0" layoutY="290.0" prefHeight="25.0" prefWidth="269.0" />
-            <Button layoutX="16.0" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #778899;" text="Back" />
-            <Button layoutX="267.0" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #778899;" text="Sign Up" />
+            <Button fx:id="Back" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #778899;" text="Back" />
+            <Button fx:id="Sign_up" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #778899;" text="Sign Up" />
             <ImageView fitHeight="63.0" fitWidth="76.0" layoutX="203.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../Images/Blue%20badge%20icon%20with%20shield%20and%20check%20mark_%20Modern%20flat%20vector%20illustration_.jpg" />
                </image>
             </ImageView>
             <Label layoutX="11.0" layoutY="337.0" prefHeight="24.0" prefWidth="105.0" text="Confirm Password:" />
-            <TextField layoutX="124.0" layoutY="336.0" prefHeight="25.0" prefWidth="269.0" />
+            <TextField fx:id="cpassword" layoutY="336.0" prefHeight="25.0" prefWidth="269.0" />
          </children>
       </AnchorPane>
    </center>

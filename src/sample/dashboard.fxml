@@ -46,11 +46,11 @@
                   <Image url="file:/C:/Users/Kendi%20Njeru/IdeaProjects/Oop2Project/Images/profile.jpg" />
                </image>
             </ImageView>
-            <Button layoutX="31.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="153.0" style="-fx-background-color: #778899;" text="View Interested Clients" />
-            <Button layoutX="31.0" layoutY="345.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0" style="-fx-background-color: #778899;" text="View My Listings" />
-            <Button layoutX="362.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="214.0" style="-fx-background-color: #778899;" text="Create Listing" />
-            <Button layoutX="359.0" layoutY="358.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="212.0" style="-fx-background-color: #778899;" text="Edit My Profile" />
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #778899;" text="Back" />
+            <Button fx:id="View_clients" layoutX="31.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="153.0" style="-fx-background-color: #778899;" text="View Interested Clients" />
+            <Button fx:id="View_Listings " layoutX="31.0" layoutY="345.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0" style="-fx-background-color: #778899;" text="View My Listings" />
+            <Button fx:id=" Create_listings" layoutX="362.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="214.0" style="-fx-background-color: #778899;" text="Create Listing" />
+            <Button fx:id="View_profile" layoutX="359.0" layoutY="358.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="212.0" style="-fx-background-color: #778899;" text="Edit My Profile" />
+            <Button fx:id="Back" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #778899;" text="Back" />
          </children>
       </Pane>
    </left>
